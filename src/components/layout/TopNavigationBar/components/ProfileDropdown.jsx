@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Dropdown, DropdownDivider, DropdownHeader, DropdownItem, DropdownMenu, DropdownToggle } from 'react-bootstrap';
 import IconifyIcon from '@/components/wrappers/IconifyIcon';
-import avatar1 from '@/assets/images/users/avatar-1.jpg';
+import avatar1 from '@/assets/images/users/avatar-4.jpg';
 import { useAuthContext } from '@/context/useAuthContext';
 const ProfileDropdown = () => {
   const {
@@ -14,7 +14,7 @@ const ProfileDropdown = () => {
         </span>
       </DropdownToggle>
       <DropdownMenu>
-        <DropdownHeader as="h6">Welcome Gaston!</DropdownHeader>
+        <DropdownHeader as="h6">Hey Dear Welcome!</DropdownHeader>
         <DropdownItem as={Link} to="/apps/chat">
           <IconifyIcon icon="bx:message-dots" className="text-muted fs-18 align-middle me-1" />
           <span className="align-middle">Messages</span>

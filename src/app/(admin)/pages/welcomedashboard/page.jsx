@@ -23,12 +23,12 @@ const thirdUsers = [
 
 const lineSeriesData = [
   {
-    name: 'Credit Amount',
+    name: 'Credit',
     type: 'bar',
     data: [10, 20, 30, 40, 35, 50, 45, 60]
   },
   {
-    name: 'Debited Amount',
+    name: 'Debit',
     type: 'area',
     data: [5, 15, 10, 25, 20, 15, 10, 5]
   }
