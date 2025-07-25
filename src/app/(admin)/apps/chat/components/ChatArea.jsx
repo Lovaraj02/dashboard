@@ -218,7 +218,7 @@ const ProfileDetail = ({
             <h5 className="mt-3">
               <span role="button" className="my-0">
                 <span className="float-end">See All</span>
-                Shared Photoes
+                Shared Photos
               </span>
             </h5>
             <Row className="gx-1 pt-2">
